@@ -1,0 +1,40 @@
+/*  Header
+...............................*/
+
+
+nav.navbar {
+    min-height: 80px;
+    padding: 15px 0;
+}
+@media screen and (min-width: 667px) {
+    nav.navbar {
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+    .nav-header {
+        margin-right: auto;
+    }
+}
+
+li.nav-item {
+    padding: 2px 7px;
+    display: inline-block;
+}
+a.nav-link {
+    font-weight: bold;
+    font-size: var(--fz-menu);
+    display: block;
+    padding: 2px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .nav-header {
+        margin-bottom: 15px;
+    }
+}
+
+
+/*  Menu
+...............................*/

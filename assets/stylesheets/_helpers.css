@@ -1,0 +1,21 @@
+
+/* Layout
+...............................*/
+.container-with,
+nav.navbar {
+    width: 100%;
+    clear: both;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.content {
+    padding-bottom: 50px;
+}
+
+
+/* shadow
+...............................*/
+.box-sh {
+    box-shadow: var(--b-sh);
+}

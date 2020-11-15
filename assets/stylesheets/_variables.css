@@ -1,0 +1,68 @@
+/*  VARIABLES
+----------------------------------------------------------- */
+/*
+	Normal      400
+	Meidum      500
+	Semi-Bold   600
+	Bold        700
+	Extra-Bold  800
+	Black       900
+*/
+
+:root {
+
+/*  @ Color
+...............................*/
+	
+	/* @name colors     : */
+	--color-red         : #da4137;
+	--color-red-dk      : #b4362d;
+	--color-gray        : #8d8d8d;
+	--color-dk          : #000;
+	--color-white       : #fff;
+	
+	/* @theme colors    : */
+	--theme             : var(--color-red);
+	
+	/* @extend color var: */
+	--body-bg           : var(--color-white);
+	
+	--main              : var(--color-gray);
+
+	--title              : var(--color-dk);
+	
+	--link              : var(--color-dk);
+	--hover             : var(--theme);
+	
+	--invers            : var(--color-white);
+	
+	
+	/* @Font            : */
+	--ff-TNR            : 'Times New Roman', Times, serif;
+	--ff-Tahoma         : 'Tahoma', sans-serif;
+	
+	--ff-main           : var(--ff-TNR);
+	--ff-heading        : var(--ff-Tahoma);
+	
+	--fz-base           : 14px;
+	--fz-menu           : 16px;
+	--fz-headings       : 18px;
+	--fz-h1             : 21px;
+
+	--font-base         : 400 var(--fz-base )/1.4 var(--ff-main);
+	--font-headings     : 700 var(--fz-headings )/1.05 var(--ff-heading);
+	
+	
+	/* @box-shadow */ 
+	--b-sh              : 0 0 5px 0 rgb(0 0 0 / 0.22);
+	
+	position: relative;
+}
+
+/*  @ media
+...............................*/
+@media screen and (max-width: 666px) {
+    :root {
+        --fz-menu   : 14px;
+    }
+}

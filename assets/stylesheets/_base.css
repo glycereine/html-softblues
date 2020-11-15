@@ -1,0 +1,71 @@
+/*  BASES
+----------------------------------------------------------- */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    /*for easy(smooth) scroll content by click to bottom ( hero section)*/
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0 15px;
+    color: var(--main);
+    background-color: var(--body-bg);
+    font: var(--font-base);
+    text-align: left;
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--hover);
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0 0 19px;
+}
+
+
+/*  Headings
+...............................*/
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title);
+    font: var(--font-headings);
+}
+h1 {
+    font-size: var(--fz-h1);
+    line-height: 1.33;
+    margin: 0 0 11px;
+}
+h2 {
+   margin: 0 0 8px;
+}
+h3 {
+   margin: 0 0 8px;
+}
+
+
+
+/*  TRANSITION
+...............................*/
+a {
+    transition: all 200ms ease 0s;
+}
