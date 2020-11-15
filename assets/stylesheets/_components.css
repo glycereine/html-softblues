@@ -40,7 +40,7 @@
 }
 
 
-/* 
+/* Button link
 ...............................*/
 a.btn-main {
     position: relative;
@@ -59,7 +59,7 @@ a.btn-main {
 }
 
 
-/* 
+/* list
 ...............................*/
 ul.list {
     display: flex;
@@ -82,7 +82,6 @@ li.list-item {
 li.list-item img {
     margin-right: 10px;
 }
-
 @media screen and (max-width: 767px) {
     li.list-item {
         align-items: flex-start;
